@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Node (in case HyperFrames init has already run in a test)
+node_modules/
+npm-debug.log*
+
+# HyperFrames runtime
+.thumbnails/
+.waveform-cache/
+renders/
+snapshots/
+
+# Editor
+.vscode/
+.idea/
+*.swp
