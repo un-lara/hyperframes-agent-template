@@ -38,6 +38,7 @@ Source material:  Content-agnostic — URLs, simulations, documents, or briefs
 11. **`npm run check` after every composition change.** Not just at the end. After each scene authored, and again after `build-root.mjs` assembles the final `index.html`. Fix all errors before moving on.
 12. **Two output variants only.** The default post-production output is (1) normal speed and (2) 1.2× speed. No explosion of silent/trim/speed permutations unless explicitly requested.
 13. **Skills are conditional on video type.** Assess at kickoff. Not every skill fires for every project.
+14. **Screenshots are reference, NOT final scene assets.** Every UI element shown in a source screenshot — dashboards, tables, forms, buttons, modals, charts, sidebars, navigation — must be recreated as live HTML + CSS + SVG inside the scene composition. Screenshots are visual reference; the agent reconstructs them as vector elements that GSAP can animate. Reasons: zoom integrity, element-level animation, brand-token application, text legibility, smooth state transitions. The only raster exceptions are character headshots (PNGs from `character-asset-generation`) and supplied brand imagery / photography.
 
 ## Skill invocation order
 
