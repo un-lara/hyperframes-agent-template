@@ -5,7 +5,7 @@ Template repo for the Motion Design Agent — a Claude Code agent that owns the 
 ## Scaffold a new project
 
 ```bash
-npx degit github.com/[your-org]/hyperframes-agent-template my-video-project
+npx degit github.com/[un-lara]/hyperframes-agent-template my-video-project
 cd my-video-project
 claude
 ```
